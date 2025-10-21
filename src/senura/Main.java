@@ -15,7 +15,7 @@ public class Main {
 
         Thread a = new Thread("*");
         Thread b = new Thread("-");
-        Thread c = new Thread("=");
+        Thread c = new Thread("+");
 
         a.start();  //
         b.start();  //
