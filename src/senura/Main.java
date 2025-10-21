@@ -20,7 +20,7 @@ public class Main {
 //
 //        a.start();  //
 //        b.start();  //
-//        c.start();
+//        c.start();  //
 
 //        Runnable a = new Runnable("*");
 //        Runnable b = new Runnable("-");
