@@ -1,6 +1,8 @@
 package senura.threading;
 
-public class Multithreading implements Runnable {
+import java.lang.Runnable;
+
+public class Multithreading implements Runnable{
 
     private int threadNumber;
     public Multithreading(int threadNumber) {
