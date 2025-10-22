@@ -1,5 +1,6 @@
 package senura;
 
+import senura.bigO.FibonacciExample;
 import senura.threading.Runnable;
 import senura.threading.Thread;
 
@@ -25,12 +26,17 @@ public class Main {
 //        Runnable a = new Runnable("*");
 //        Runnable b = new Runnable("-");
 //        Runnable c = new Runnable("=");
-        Thread ta = new Thread("*");
-        Thread tb = new Thread("=");
-        Thread tc = new Thread("-");
-        ta.start();
-        tb.start();
-        tc.start();
+
+//        Thread ta = new Thread("*");
+//        Thread tb = new Thread("=");
+//        Thread tc = new Thread("-");
+//        ta.start();
+//        tb.start();
+//        tc.start();
+
+        FibonacciExample fib = new FibonacciExample();
+        int n = 10;  // Change this number to test other inputs
+        System.out.println("Fibonacci of " + n + " is: " + FibonacciExample.fib(n));
 
     }
 }
